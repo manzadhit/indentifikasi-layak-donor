@@ -283,15 +283,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: auto;
+  gap: 40px;
 }
 
 .tentang-text {
   flex: 1;
-  margin-right: 40px;
   text-align: justify;
   font-family: "Arial", sans-serif;
   color: #333;
+  padding-left: 40px;
 }
 
 .tentang-text p {
@@ -305,6 +305,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 40px;
 }
 
 .tentang-image img {
